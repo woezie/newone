@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+}
+/*카테고리 만들기 관련 코드 시작*/
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+.navbar a {
+  float: left;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 160px;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: #000;
+}
+.active {
+  background-color: #4CAF50;
+}
+/*카테고리 만들기 관련 코드 끝*/
+h1 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h4 {
+  display: inline;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be   left-aligned on small screens */
+  }
+}
